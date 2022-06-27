@@ -15,3 +15,7 @@ print("Write a Python program to print the numbers of a specified list after rem
 list1 = [x for x in list1 if x%2!=0]
 print(list1)
 print("Write a Python program to print a specified list after removing the 0th, 4th and 5th elements.")
+list3 = ['mercury', 'venus', 'earth', 'mars', 'saturn', 'jupiter']
+print(list3)
+list3 = [x for (i,x) in enumerate(list3) if i not in (0,4,5)]
+print(list3)
